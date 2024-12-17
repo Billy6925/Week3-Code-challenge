@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     handleBuyTicket();
   });
   
+  //Fetch movie details
   function fetchMovieDetails() {
     fetch('http://localhost:3000/films/1')
       .then(response => response.json())
