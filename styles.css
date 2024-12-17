@@ -2,6 +2,8 @@ body{
     margin: 0;
     background-color: burlywood;
     justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
 img{
     border: 1px solid #ddd;
@@ -11,10 +13,25 @@ img{
     height: 200px;
 }
 main{
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     margin-left: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem;
+    background: orange;
+    text-align: justify;
+}
+h1{
+    color: red;
+    text-align: center;
+    background-color: orange;
+    justify-content: center;
+}
+#container{
+border: 10px solid #B22222;
+padding: 60px;
+justify-items: center;
+padding-top: 0;
 }
