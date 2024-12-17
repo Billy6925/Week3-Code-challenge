@@ -11,6 +11,7 @@ img{
     padding: 5px;
     width: 250px;
     height: 200px;
+    margin-left: 180px;
 }
 main{
     max-width: 600px;
@@ -36,12 +37,8 @@ padding: 60px;
 justify-items: center;
 padding-top: 0;
 margin-left: 350px;
-margin-right: 350px;
+margin-right: 300px;
 background-color: orange;
-}
-ul.film-list{
-  float: left;
-  text-align: left;
 }
 button { padding: 0.5rem 1rem;
      background-color: #333; 
@@ -54,3 +51,17 @@ button { padding: 0.5rem 1rem;
      button:hover {
      background-color: #555;
      }
+
+     ul#films { 
+        list-style-type:none;
+        max-width: 200px; 
+        float: left; /* Float the list to the left */ 
+        margin-right: 500px;
+    } 
+        ul#films .film.item { 
+        cursor: pointer;
+         }
+
+        ul#films .film.item:hover {
+        text-decoration: underline; 
+        }
