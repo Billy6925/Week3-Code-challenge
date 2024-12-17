@@ -13,15 +13,15 @@ img{
     height: 200px;
 }
 main{
-    max-width: 400px;
-    width: 100%;
+    max-width: 600px;
+    width: 200%;
     margin-left: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem;
     background: orange;
-    text-align: justify;
+    justify-content: center;
 }
 h1{
     color: red;
@@ -35,24 +35,11 @@ border: 10px solid #B22222;
 padding: 60px;
 justify-items: center;
 padding-top: 0;
+margin-left: 350px;
+margin-right: 350px;
+background-color: orange;
 }
-
 ul.film-list{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    max-width: 200px;
-    flex: 0 0 200px;
-    align-self:flex-start;
-}
-ul.film-list .film.item { 
-    padding: 0.5rem;
-     margin-bottom: 0.5rem;
-      background-color: white;
-     border: 1px solid #ddd;
-      border-radius: 4px; 
-      cursor: pointer;
-}
-ul.film-list .film.item:hover {
-    background-color: #f0f0f0;
+  float: left;
+  text-align: left;
 }
