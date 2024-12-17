@@ -27,7 +27,13 @@ To contribute to this code challenge:
 
 ## License
 MIT License.
+
 Copyright (c) 2024 Billy6925
 
-## 
+## Contact(s)
+You can reach the owner of this repository through:
+
+Phone: <u>+254715542754</u>
+
+Email: billy.eskein@student.moringaschool.com
 
