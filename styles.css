@@ -37,7 +37,6 @@ justify-items: center;
 padding-top: 0;
 }
 
-#movies{
-    margin-left: 0;
-    text-align: left;
+ul.film-list{
+    
 }
