@@ -37,6 +37,7 @@ function renderMovieDetails(movie) {
   availableTickets.setAttribute('id', 'available-tickets');
 }
 
+//Fetch movie list from films
 function fetchMovieList() {
   fetch('http://localhost:3000/films')
     .then(response => response.json())
@@ -56,6 +57,7 @@ function renderMovieList(movies) {
   });
 }
 
+//Button to buy ticket and also to state if sold out
 function handleBuyTicket() {
   const buyButton = document.getElementById('buyButton');
   buyButton.addEventListener('click', () => {
